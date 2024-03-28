@@ -17,7 +17,7 @@ namespace March_Madness_Adventure
         int page = 1; //assigning the integer "page" a value
         Random randGen = new Random(); //setting up for a random output later
 
-        public Form1()
+        public Form1() 
         {
             InitializeComponent();
         }
