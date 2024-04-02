@@ -121,7 +121,7 @@
   <data name="March_Madness_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\March_Madness_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="March-Madness-4e4588281a7c483e949f3ca0c6e8fb06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="marchmadness" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\March-Madness-4e4588281a7c483e949f3ca0c6e8fb06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="courtsideSeats" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -177,5 +177,20 @@
   </data>
   <data name="win" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\win.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="claps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\claps-44774.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gamesounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Sounds of a Lakers Playoff Game.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="marchmadnesssong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NCAA March Madness Theme.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="selfieclick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera-shutter-6305.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="talking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muffled-talking-6161.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

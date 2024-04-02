@@ -12,12 +12,12 @@ using System.Media;
 
 namespace March_Madness_Adventure
 {
-    public partial class Form1 : Form
+    public partial class marchMadnessAdventure : Form
     {
         int page = 1; //assigning the integer "page" a value
         Random randGen = new Random(); //setting up for a random output later
 
-        public Form1() 
+        public marchMadnessAdventure() 
         {
             InitializeComponent();
         }
@@ -232,6 +232,9 @@ namespace March_Madness_Adventure
             switch (page)
             {
                 case 1:
+                    SoundPlayer soundPlayer4 = new SoundPlayer(Properties.Resources.marchmadnesssong);
+                    soundPlayer4.Play();
+
                     outputLabel.Text = "Welcome! You are going to a March Madness Game. Do you want to:";
                     button1.Text = "Play";
                     button2.Text = "Watch";
@@ -249,6 +252,8 @@ namespace March_Madness_Adventure
                     break;
                 case 3:
                     imageBox.Image = Properties.Resources.courtsideSeats;
+                    SoundPlayer soundPlayer5 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer5.Play();
 
                     outputLabel.Text = "You are sitting courtside and see your favourite player. Do you try to talk to them?";
                     button1.Text = "Talk";
@@ -267,6 +272,8 @@ namespace March_Madness_Adventure
                     break;
                 case 5:
                     imageBox.Image = Properties.Resources.walkingOut;
+                    SoundPlayer soundPlayer6 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer6.Play();
 
                     outputLabel.Text = "You stay humble and the crowd cheers for you. Your coach sees this and wants you to start. Do you accept?";
                     button1.Text = "Yes";
@@ -275,6 +282,8 @@ namespace March_Madness_Adventure
                     break;
                 case 6:
                     imageBox.Image = Properties.Resources.shot;
+                    SoundPlayer soundPlayer7 = new SoundPlayer(Properties.Resources.gamesounds);
+                    soundPlayer7.Play();
 
                     outputLabel.Text = "You start in the game, and score 30 points. You need one more point to break the franchise record. There are 6 seconds left and you can either pass the ball to your open teammate or take the contested shot yourself. Your team needs 3 points to tie the game. What do you do?";
                     button1.Text = "Shoot";
@@ -283,6 +292,8 @@ namespace March_Madness_Adventure
                     break;
                 case 7:
                     imageBox.Image = Properties.Resources.bench;
+                    SoundPlayer soundPlayer8 = new SoundPlayer(Properties.Resources.crowdboo);
+                    soundPlayer8.Play();
 
                     outputLabel.Text = "You don't start and your coach gets mad. You sit on the bench the entire game. Play Again?";
                     button1.Text = "Yes";
@@ -291,6 +302,8 @@ namespace March_Madness_Adventure
                     break;
                 case 8:
                     imageBox.Image = Properties.Resources.gamewinner;
+                    SoundPlayer soundPlayer9 = new SoundPlayer(Properties.Resources.crowdCheering);
+                    soundPlayer9.Play();
 
                     outputLabel.Text = "You shot the contested shot and made it! But your foot was on the line and it only counted as 2 points! Your team loses the game but you broke the scoring record. You're seen as one of the team's greatest players ever. Play Again?";
                     button1.Text = "Yes";
@@ -309,6 +322,8 @@ namespace March_Madness_Adventure
                     break;
                 case 10:
                     imageBox.Image = Properties.Resources.pressconference;
+                    SoundPlayer soundPlayer10 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer10.Play();
 
                     outputLabel.Text = "You say you wanted your teammate to have the glory. Everyone looks at you as a hero and a team player. You are cemented into the hall of fame of the team. Play Again?";
                     button1.Text = "Yes";
@@ -317,6 +332,8 @@ namespace March_Madness_Adventure
                     break;
                 case 11:
                     imageBox.Image = Properties.Resources.pressconference;
+                    SoundPlayer soundPlayer11 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer11.Play();
 
                     outputLabel.Text = "You say you don't want the scoring record but everyone accuses you of lying. They think you were too scared to shoot the game winning shot in case you missed. Play Again?";
                     button1.Text = "Yes";
@@ -325,6 +342,8 @@ namespace March_Madness_Adventure
                     break;
                 case 12:
                     imageBox.Image = Properties.Resources.autograph;
+                    SoundPlayer soundPlayer12 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer12.Play();
 
                     outputLabel.Text = "You get their attention and you ask for an autograph. They say they'll meet you at your seat at the end of the game. It's now the end of the game. Do you wait?";
                     button1.Text = "Yes";
@@ -333,6 +352,8 @@ namespace March_Madness_Adventure
                     break;
                 case 13:
                     imageBox.Image = Properties.Resources.selfie;
+                    SoundPlayer soundPlayer13 = new SoundPlayer(Properties.Resources.selfieclick);
+                    soundPlayer13.Play();
 
                     outputLabel.Text = "You see the player's upset so you decide not to bother him. On your way out, you see the player again, and this time you decide to take an unwanted selfie with him. You capture him mid sneeze, and he wants you to delete it. Instead, you run away. Do you want to post the picture or keep it as a memory?";
                     button1.Text = "Post";
@@ -341,6 +362,8 @@ namespace March_Madness_Adventure
                     break;
                 case 14:
                     imageBox.Image = Properties.Resources.talkingtocoach;
+                    SoundPlayer soundPlayer14 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer14.Play();
 
                     outputLabel.Text = "You wait for the player but they forget about you. Luckily , you see the coach and tell him what happened. The coach gives you an option. You can either get free courtside seats to the next game or get the player's autograph. What do you do?";
                     button1.Text = "Seats";
@@ -349,6 +372,8 @@ namespace March_Madness_Adventure
                     break;
                 case 15:
                     imageBox.Image = Properties.Resources.autograph;
+                    SoundPlayer soundPlayer15 = new SoundPlayer(Properties.Resources.crowdboo);
+                    soundPlayer15.Play();
 
                     outputLabel.Text = "You decide you have better things to do with your time and leave. Play Again?";
                     button1.Text = "Yes";
@@ -357,6 +382,8 @@ namespace March_Madness_Adventure
                     break;
                 case 16:
                     imageBox.Image = Properties.Resources.selfie;
+                    SoundPlayer soundPlayer16 = new SoundPlayer(Properties.Resources.selfieclick);
+                    soundPlayer16.Play();
 
                     outputLabel.Text = "You post the picture and end up gaining 4 million likes. The only downside is that you re banned from ever going to another game. You Lose! Play Again?";
                     button1.Text = "Yes";
@@ -365,6 +392,8 @@ namespace March_Madness_Adventure
                     break;
                 case 17:
                     imageBox.Image = Properties.Resources.autograph;
+                    SoundPlayer soundPlayer17 = new SoundPlayer(Properties.Resources.crowdCheering);
+                    soundPlayer17.Play();
 
                     outputLabel.Text = "You save the picture and decide not to post it. The player texts you and offers three options. You can either get an autograph, play in a game, or sit with the announcers. What do you do?";
                     button1.Text = "Autograph";
@@ -373,6 +402,8 @@ namespace March_Madness_Adventure
                     break;
                 case 18:
                     imageBox.Image = Properties.Resources.courtsideSeats;
+                    SoundPlayer soundPlayer18 = new SoundPlayer(Properties.Resources.crowdboo);
+                    soundPlayer18.Play();
 
                     outputLabel.Text = "You take the seats and never get to meet your favourite player. On top of that, the team loses every game of the season that you are in attendance for. You Lose! Play Again?";
                     button1.Text = "Yes";
@@ -381,6 +412,8 @@ namespace March_Madness_Adventure
                     break;
                 case 19:
                     imageBox.Image = Properties.Resources.picturewithplayer;
+                    SoundPlayer soundPlayer19 = new SoundPlayer(Properties.Resources.selfieclick);
+                    soundPlayer19.Play();
 
                     outputLabel.Text = "You go with the coach and get your favourite player's autograph and a selfie with him. You Win! Play Again?";
                     button1.Text = "Yes";
@@ -389,14 +422,21 @@ namespace March_Madness_Adventure
                     break;
                 case 20:
                     imageBox.Image = Properties.Resources.jerseymailed;
+                    SoundPlayer soundPlayer20 = new SoundPlayer(Properties.Resources.crowdCheering);
+                    soundPlayer20.Play();
 
-                    outputLabel.Text = "You choose to get an autograph. An autographed jersey comes in your mail a few weeks later. You Win! Play Again?";
+                    outputLabel.Text = "You choose to get an autograph.";
+                    Refresh();
+                    Thread.Sleep(1000);//show some text, then change it after 1 second
+                    outputLabel.Text = "An autographed jersey comes in your mail a few weeks later. You Win! Play Again ? ";
                     button1.Text = "Yes";
                     button2.Text = "No";
                     button3.Enabled = false;
                     break;
                 case 21:
                     imageBox.Image = Properties.Resources.announcers;
+                    SoundPlayer soundPlayer21 = new SoundPlayer(Properties.Resources.talking);
+                    soundPlayer21.Play();
 
                     outputLabel.Text = "You choose to sit with the announcers for the game and they let you introduce the players as they walk on. You mess up the pronounciation of every players' names horribly. You Lose! Play Again?";
                     button1.Text = "Yes";
@@ -405,6 +445,8 @@ namespace March_Madness_Adventure
                     break;
                 case 22:
                     imageBox.Image = Properties.Resources.loss;
+                    SoundPlayer soundPlayer22 = new SoundPlayer(Properties.Resources.crowdboo);
+                    soundPlayer22.Play();
 
                     outputLabel.Text = "You chose to play. The next day, you play in a game with the team. You end the game with 4 points and a broken collarbone. You Lose! Play Again?";
                     button1.Text = "Yes";
@@ -413,6 +455,8 @@ namespace March_Madness_Adventure
                     break;
                 case 23:
                     imageBox.Image = Properties.Resources.win;
+                    SoundPlayer soundPlayer23 = new SoundPlayer(Properties.Resources.crowdCheering);
+                    soundPlayer23.Play();
 
                     outputLabel.Text = "You chose to play. The next day, you have a game with the team. You end the game with 30 points and a game winner. You Win! Play Again?";
                     button1.Text = "Yes";
@@ -420,11 +464,15 @@ namespace March_Madness_Adventure
                     button3.Enabled = false;
                     break;
                 case 99:
+                    imageBox.Image = Properties.Resources.marchmadness;
+                    SoundPlayer soundPlayer24 = new SoundPlayer(Properties.Resources.claps);
+                    soundPlayer24.Play();
+
                     outputLabel.Text = "Thanks for playing";
                     button1.Text = "";
                     button2.Text = "";
                     Refresh(); //the program closes after 1 second, if button 2 is clicked
-                    Thread.Sleep(1000);
+                    Thread.Sleep(3000);
                     Application.Exit();
                     break;
                 default:

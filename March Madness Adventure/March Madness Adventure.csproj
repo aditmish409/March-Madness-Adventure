@@ -149,5 +149,20 @@
   <ItemGroup>
     <None Include="Resources\win.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NCAA March Madness Theme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muffled-talking-6161.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Sounds of a Lakers Playoff Game.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-shutter-6305.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\claps-44774.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace March_Madness_Adventure
 {
-    partial class Form1
+    partial class marchMadnessAdventure
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(marchMadnessAdventure));
             this.textLabel = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -106,7 +107,7 @@
             this.imageBox.TabIndex = 2;
             this.imageBox.TabStop = false;
             // 
-            // Form1
+            // marchMadnessAdventure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -118,7 +119,8 @@
             this.Controls.Add(this.imageBox);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.textLabel);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "marchMadnessAdventure";
             this.Text = "March Madness Adventure";
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.ResumeLayout(false);

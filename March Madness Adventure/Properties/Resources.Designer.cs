@@ -91,6 +91,15 @@ namespace March_Madness_Adventure.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream claps {
+            get {
+                return ResourceManager.GetStream("claps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap courtsideSeats {
@@ -125,6 +134,15 @@ namespace March_Madness_Adventure.Properties {
             get {
                 object obj = ResourceManager.GetObject("gameloss", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gamesounds {
+            get {
+                return ResourceManager.GetStream("gamesounds", resourceCulture);
             }
         }
         
@@ -170,9 +188,9 @@ namespace March_Madness_Adventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap March_Madness_4e4588281a7c483e949f3ca0c6e8fb06 {
+        internal static System.Drawing.Bitmap March_Madness_logo_svg {
             get {
-                object obj = ResourceManager.GetObject("March-Madness-4e4588281a7c483e949f3ca0c6e8fb06", resourceCulture);
+                object obj = ResourceManager.GetObject("March_Madness_logo.svg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -180,10 +198,19 @@ namespace March_Madness_Adventure.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap March_Madness_logo_svg {
+        internal static System.Drawing.Bitmap marchmadness {
             get {
-                object obj = ResourceManager.GetObject("March_Madness_logo.svg", resourceCulture);
+                object obj = ResourceManager.GetObject("marchmadness", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream marchmadnesssong {
+            get {
+                return ResourceManager.GetStream("marchmadnesssong", resourceCulture);
             }
         }
         
@@ -218,12 +245,30 @@ namespace March_Madness_Adventure.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream selfieclick {
+            get {
+                return ResourceManager.GetStream("selfieclick", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap shot {
             get {
                 object obj = ResourceManager.GetObject("shot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream talking {
+            get {
+                return ResourceManager.GetStream("talking", resourceCulture);
             }
         }
         
